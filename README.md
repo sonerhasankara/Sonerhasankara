@@ -3,7 +3,7 @@
 SONER HASAN KARA - 190202112 <br>
 Bilgisayar ve Bilişim Sistemleri Mühendiliği <br>
 Bitirme Porjesi
-Kelime defterim istediğiniz bir ingilizce kelimenin kayıt etmesini sağlayan responsive bir web sayfasıdır.
+Kelime defterim istediğiniz bir inilizce kelimenin kayıt etmesini sağlayan responsive bir web sayfasıdır.
 Bu web sitesi başlıca;
 <ul>
   <li>istediğiniz ingilizce kelimeyi eklemek</li>

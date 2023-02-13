@@ -2,7 +2,6 @@
     Swal.fire({
     // title: 'Bilgisayar ve Bilişim Sistemleri Mühendisliği',
     html:"<b>SONER HASAN KARA</b><br>Bilgisayar ve Bilişim Sistemleri Mühendisliği<br><b>Ogrenci Numarası: </b> 190202112 <br><u>sonerhasan.kara@campus.netkent.edu.tr</u>",
-    // html:"Bize <a href='mailto:senaslanugur@gmail.com'><b><u>buradan</b></u></a> öneri ve görüşlerinizi bildirebilirsiniz. <br> <p>&copy; Copyright 2021. All Rights Reserved. senaslanbilisim</p>",
     imageUrl: 'https://www.netkent.edu.tr/assets/images/logo.png',
     imageAlt: 'Custom image',
     });

@@ -46,7 +46,7 @@
     icon: 'info',
     title: 'Oops...',
     text: 'Herhangi bir kelimeniz yok.',
-    footer: '<a href="https://senaslanugur.github.io/Kelime-Defterim/">Kelime Ekleyebilirsiniz...</a>'
+    footer: '<a href="https://sonerhasankara.github.io/Sonerhasankara/">Kelime Ekleyebilirsiniz...</a>'
   })
   }
 
