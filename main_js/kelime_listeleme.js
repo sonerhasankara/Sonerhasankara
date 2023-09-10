@@ -1,4 +1,5 @@
 /* Data for testing */
+
 /*
   var data =  [{'turkce_anlami': 'Kelime Yok', 'ingilizce_anlami': 'Kelime Yok'},];
 
@@ -8,8 +9,9 @@
   localStorage.setItem('Pretect', JSON.stringify(data));
   localStorage.setItem('Supply', JSON.stringify(data));
   localStorage.setItem('Improve', JSON.stringify(data));
-	localStorage.setItem('test111', JSON.stringify(data));
+
 */
+
 /* variables for words */
 	const ing_kelimeler = [];
 	const tr_kelimeler = [];
@@ -45,9 +47,22 @@
   	Swal.fire({
     icon: 'info',
     title: 'Oops...',
-    text: 'Herhangi bir kelimeniz yok.',
+    text: 'Herhangi bir kelimeniz yok. Örnek bazı kelimeler gösterilecektir.',
     footer: '<a href="https://sonerhasankara.github.io/Sonerhasankara/">Kelime Ekleyebilirsiniz...</a>'
+  }).then((result) => {
+    if (result.isConfirmed) {
+		var data =  [{'turkce_anlami': 'Example', 'ingilizce_anlami': 'Example'},];
+
+		localStorage.setItem('Apply', JSON.stringify(data));
+	  
+		localStorage.setItem('Test', JSON.stringify(data));
+		localStorage.setItem('Pretect', JSON.stringify(data));
+		localStorage.setItem('Supply', JSON.stringify(data));
+		localStorage.setItem('Improve', JSON.stringify(data));
+		location. reload()
+    }
   })
+
   }
 
 /* examples words functions */
