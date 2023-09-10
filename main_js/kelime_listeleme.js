@@ -51,14 +51,17 @@
     footer: '<a href="https://sonerhasankara.github.io/Sonerhasankara/">Kelime Ekleyebilirsiniz...</a>'
   }).then((result) => {
     if (result.isConfirmed) {
-		var data =  [{'turkce_anlami': 'Example', 'ingilizce_anlami': 'Example'},];
 
-		localStorage.setItem('Apply', JSON.stringify(data));
-	  
-		localStorage.setItem('Test', JSON.stringify(data));
-		localStorage.setItem('Pretect', JSON.stringify(data));
-		localStorage.setItem('Supply', JSON.stringify(data));
-		localStorage.setItem('Improve', JSON.stringify(data));
+		localStorage.setItem('Apply', JSON.stringify([{'turkce_anlami': 'Uygulamak', 'ingilizce_anlami': 'Practice'},]));
+		localStorage.setItem('Test', JSON.stringify([{'turkce_anlami': 'Test etmek', 'ingilizce_anlami': 'Analysis'},]));
+		localStorage.setItem('Protect', JSON.stringify([{'turkce_anlami': 'Korumak', 'ingilizce_anlami': 'Care for'},]));
+		localStorage.setItem('Supply', JSON.stringify([{'turkce_anlami': 'Tedarik', 'ingilizce_anlami': 'Fund'},]));
+		localStorage.setItem('Improve', JSON.stringify([{'turkce_anlami': 'Geliştirmek', 'ingilizce_anlami': 'Develop'},]));
+		localStorage.setItem('Accept', JSON.stringify([{'turkce_anlami': 'Kabul etmek', 'ingilizce_anlami': 'Obtain'},]));
+		localStorage.setItem('Suppose', JSON.stringify([{'turkce_anlami': 'Varsaymak', 'ingilizce_anlami': 'Deam'},]));
+		localStorage.setItem('Mention', JSON.stringify([{'turkce_anlami': 'Bahsetmek', 'ingilizce_anlami': 'Notice'},]));
+		localStorage.setItem('Mind', JSON.stringify([{'turkce_anlami': 'Akıl', 'ingilizce_anlami': 'Brain'},]));
+		localStorage.setItem('Admire', JSON.stringify([{'turkce_anlami': 'Hayranlık duymak', 'ingilizce_anlami': 'Adore'},]));
 		location. reload()
     }
   })
